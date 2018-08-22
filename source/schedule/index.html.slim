@@ -1,0 +1,638 @@
+---
+title: タイムテーブル
+descriptipon: カンファレンスのタイムテーブルについて紹介します。
+---
+
+.container
+  .pageHeader
+    h1.pageHeader_title
+      = current_page.data.title
+  .schedule
+    / .alert.alert-info
+    /   | タイムテーブルは一部調整中です 🙏🏻
+    /   br
+    /   | 時刻や内容に変更が入る可能性があります。ご了承ください。
+
+    h2.schedule_title
+      | Day1: 2017/11/14 (火)
+    / ul.nav.nav-tabs
+    /   li.active
+    /     =link_to '10/24 (月)', '#day1', 'data-toggle' => 'tab'
+    .tab-content
+      .tab-pane.active#day1
+        .scheduleTable
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 09:20 - 10:00
+            .scheduleTable_line_session-all.break
+              | Registration
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 10:00 - 10:10
+              .scheduleTable_line_time_min
+               | 10min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'profile_images/fullvirtue.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [14-01]
+                .scheduleTable_line_title
+                  | Welcome Talk
+                .scheduleTable_line_speaker
+                  | 関 満徳
+                  br
+                  | Product Manager Conference 実行委員長
+                  br
+                  | グロースエクスパートナーズ株式会社 ITアーキテクト
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 10:10 - 10:50
+              .scheduleTable_line_time_min
+               | 40min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/MitsuruSaito.jpeg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [14-02] なぜ今プロダクトマネジメントか
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/14/whypm/" なぜ今プロダクトマネジメントか
+                .scheduleTable_line_speaker
+                  | 齊藤 満 氏
+                  br
+                  | 楽天株式会社 Senior Manager
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 10:50 - 11:05
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 11:05 - 11:35
+              .scheduleTable_line_time_min
+               | 30min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/MasaharuUno.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [14-03] 新しいテクノロジーの潮流とどう向き合うか
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/14/new_technology/" トークン・エコノミー時代のプロダクト設計
+                .scheduleTable_line_speaker
+                  | 宇野 雅晴 氏
+                  br
+                  | Omise Japan株式会社 Business Development Manager
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 11:35 - 11:50
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 11:50 - 13:15
+              .scheduleTable_line_time_min
+               | 100min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/MitsuruSaito.jpeg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [14-04]プロダクトマネージャートークセッション
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/14/pmtalk/" プロダクトマネージャートークセッション
+                .scheduleTable_line_speaker
+                  | 齊藤 満 氏
+                  br
+                  | 楽天株式会社 Senior Manager
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/TakeoIyo_2017.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | 伊豫 健夫 氏
+                  br
+                  | 株式会社メルカリ 執行役員
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/RyoheiMiyota.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | 御代田 亮平 氏
+                  br
+                  | LINE株式会社 開発1センター プロダクトマネージャー
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/KazushiFujita.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | 藤田 和司 氏
+                  br
+                  | 株式会社サイバーエージェント アドテク本部 アドテクスタジオ チーフプロダクトオフィサー
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'profile_images/takoratta.jpeg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | [ファシリテーター]
+                  br
+                  | 及川 卓也
+                  br
+                  | Product Manager Conference 実行委員
+                  br
+                  | フリーランス
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 13:15 - 13:30
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 13:30 - 14:00
+              .scheduleTable_line_time_min
+               | 30min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/YusukeSato.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [14-05] プロダクトマネージャーに期待するもの
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/14/expectation/" プロダクトマネージャーに経営者が期待するもの
+                .scheduleTable_line_speaker
+                  | 佐藤 裕介 氏
+                  br
+                  | 株式会社フリークアウト・ホールディングス 代表取締役社長
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 14:00 - 14:15
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 14:15 - 14:45
+              .scheduleTable_line_time_min
+               | 30min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/YosukeOkada.jpg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [14-06] ユーザー理解 (データ分析)
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/14/abeja/" IoT、ビッグデータ、人工知能によるユーザー理解を通じたプロダクト開発
+                .scheduleTable_line_speaker
+                  | 岡田 陽介 氏
+                  br
+                  | 株式会社ABEJA 代表取締役CEO
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 14:45 - 15:00
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 15:00 - 16:00
+              .scheduleTable_line_time_min
+               | 60min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/ShinjiAsada.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [14-07] グローバル企業のプロダクトマネジメント
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/14/case_study1/" Salesforceで行われているプロダクトマネジメント
+                .scheduleTable_line_speaker
+                  | 浅田 慎二 氏
+                  br
+                  | 株式会社セールスフォース・ドットコム セールスフォース・ベンチャーズ 日本代表
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/KenWakamatsu.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | Ken Wakamatsu 氏
+                  br
+                  | 株式会社セールスフォース・ドットコム
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 16:00 - 16:20
+              .scheduleTable_line_time_min
+               | 20min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 16:20 - 16:50
+              .scheduleTable_line_time_min
+               | 30min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/KeiKinoshita.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [14-08] サービスのグローバル展開
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/14/case_study2/" メルカリUKにおけるプロダクトマネジメント
+                .scheduleTable_line_speaker
+                  | 木下 慶 氏
+                  br
+                  | 株式会社メルカリ
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 16:50 - 17:05
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 17:05 - 17:35
+              .scheduleTable_line_time_min
+               | 30min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/RyoheiMiyota.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [14-09] プロダクトマネージャー文化醸成と組織化
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/14/case_study3/" 開発チームが安定したプロダクトマネジメントを実現するための７つのルール
+                .scheduleTable_line_speaker
+                  | 御代田 亮平 氏
+                  br
+                  | LINE株式会社
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 17:35 - 17:45
+              .scheduleTable_line_time_min
+               | 10min
+            .scheduleTable_line_session-all.break
+              | クロージング
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 17:45 - 20:45
+              .scheduleTable_line_time_min
+               | 3h
+            .scheduleTable_line_session-all.break
+              | ネットワーキング
+  .schedule
+    h2.schedule_title
+      | Day2: 2017/11/15 (水)
+    .tab-content
+      .tab-pane.active#day1
+        .scheduleTable
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 09:20 - 10:00
+            .scheduleTable_line_session-all.break
+              | Registration
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 10:00 - 10:10
+              .scheduleTable_line_time_min
+               | 10min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'profile_images/fullvirtue.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [15-01]
+                .scheduleTable_line_title
+                  | Welcome Talk
+                .scheduleTable_line_speaker
+                  | 関 満徳
+                  br
+                  | Product Manager Conference 実行委員長
+                  br
+                  | グロースエクスパートナーズ株式会社 ITアーキテクト
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 10:10 - 11:35
+              .scheduleTable_line_time_min
+               | 85min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/ShinyaNakayama.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [15-02] 熱狂的チームを作る
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/team_creation/" 今いるメンバーで「大金星」を挙げるチームの法則
+                .scheduleTable_line_speaker
+                  | 仲山 進也 氏
+                  br
+                  | 仲山考材（株）代表取締役・楽天（株）楽天大学学長
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 11:35 - 11:50
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 11:50 - 12:20
+              .scheduleTable_line_time_min
+               | 30min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/RyoheiTakuma.jpg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [15-03] Product strategyによって組織は大きく成長できる
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/case_study4/" Product strategyによって組織は大きく成長できる
+                .scheduleTable_line_speaker
+                  | 詫間 亮平 氏
+                  br
+                  | 楽天株式会社 レジャーサービス開発課 ゴルフプロダクトマネジメントグループ マネージャー
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 12:20 - 13:30
+              .scheduleTable_line_time_min
+               | 1h 10min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'pmconf_ico.jpg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [15-04] ランチ／ショートトーク
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/day2_lunch_session/" 多様性を成功に導くプロダクトマネジメント ５選
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/ErikoObe.jpg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/day2_lunch_session/" 働き方の多様性 | 大阪リモートチームとのプロダクトマネジメント
+                .scheduleTable_line_speaker
+                  | 尾部 絵里子 氏
+                  br
+                  | Sansan株式会社
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/SakiTakagi.jpg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/day2_lunch_session/" 働き方の多様性 | プロダクトマネージャー兼エンジニアが語るリモートワークが当たり前の組織
+                .scheduleTable_line_speaker
+                  | 高木 咲希 氏
+                  br
+                  | 株式会社ソニックガーデン
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/RisaTakahashi.jpg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/day2_lunch_session/" 価値観の多様性 | スウェーデンと日本 Global Teamにおけるプロダクトマネジメント
+                .scheduleTable_line_speaker
+                  | 高橋 りさ 氏
+                  br
+                  | ソニーモバイルコミュニケーションズ株式会社
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/HayatoIshida.jpg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/day2_lunch_session/" 組織とキャリアの多様性 | PM文化のない組織にPM文化をつくる
+                .scheduleTable_line_speaker
+                  | 石田 隼 氏
+                  br
+                  | ChatWork株式会社
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/KanakoShinohara.jpg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/day2_lunch_session/" 組織とキャリアの多様性 | プロダクトマネジメントをチームに導入するということのリアル
+                .scheduleTable_line_speaker
+                  | 篠原 佳奈子 氏
+                  br
+                  | 株式会社ビズリーチ
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 13:30 - 14:00
+              .scheduleTable_line_time_min
+               | 30min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/NaokoOkuizumi.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [15-05] ユーザー理解（行動観察）
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/user_insights/" ユーザーの“心の声”を探るUXリサーチ
+                .scheduleTable_line_speaker
+                  | 奥泉 直子 氏
+                  br
+                  | フリーランス・ユーザーリサーチャー
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 14:00 - 14:15
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 14:15 - 14:45
+              .scheduleTable_line_time_min
+               | 30min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/KotaroKokubo.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [15-06] 良いUXをデザインする
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/good_ux/" PM が UXするために必要なのはおそらく IA
+                .scheduleTable_line_speaker
+                  | 小久保 浩大郎 氏
+                  br
+                  | 株式会社CAMPFIRE
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 14:45 - 15:00
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 15:00 - 15:30
+              .scheduleTable_line_time_min
+               | 30min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/ShuheiKimura.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [15-07] エンジニアからプロダクトマネージャーへのキャリアパスを考える
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/career/" エンジニアがプロダクトマネージャーとしての役割を全うするために何をするべきか
+                .scheduleTable_line_speaker
+                  | 株式会社サイバーエージェント
+                  br
+                  | 木村 衆平 氏
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 15:30 - 15:50
+              .scheduleTable_line_time_min
+               | 20min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 15:50 - 16:50
+              .scheduleTable_line_time_min
+               | 1h
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/BryanCheng.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [15-08] プロダクトマネージャーの採用と育成
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/recruiting/" プロダクトマネージャーの採用と育成
+                .scheduleTable_line_speaker
+                  | Bryan Cheng 氏
+                  br
+                  | Google, Inc.
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/CapellaYee.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | Capella Yee 氏
+                  br
+                  | Google, Inc.
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 16:50 - 17:05
+              .scheduleTable_line_time_min
+               | 15min
+            .scheduleTable_line_session-all.break
+              | Break
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 17:05 - 18:05
+              .scheduleTable_line_time_min
+               | 60min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'pmconf_ico.jpg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                span.scheduleTable_line_theme
+                  | [15-09] グループワークショップ
+                .scheduleTable_line_title
+                  a href="../sessions/2017/09/15/deep_session/" 日本のプロダクトマネージャーは今何をすべきか
+                  br
+                  span[style="font-size: 14px;"] 今年のテーマ: 広げる、深める、日本のプロダクトマネジメント
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/TakaakiUmada.jpeg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | 馬田 隆明 氏
+                  br
+                  | 東京大学 産学協創推進本部 東京大学本郷テックガレージ ディレクター
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'profile_images/takoratta.jpeg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | 及川 卓也
+                  br
+                  | Product Manager Conference 実行委員
+                  br
+                  | フリーランス
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'profile_images/mizukitanno.jpeg', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | 丹野 瑞紀
+                  br
+                  | Product Manager Conference 実行委員
+                  br
+                  | 株式会社ビズリーチ プロダクトマネージャー
+          .scheduleTable_line
+            .scheduleTable_line_time
+              |
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'profile_images/fullvirtue.png', width: '100', height: '100'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker
+                  | 関 満徳
+                  br
+                  | Product Manager Conference 実行委員長
+                  br
+                  | グロースエクスパートナーズ株式会社 ITアーキテクト
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 18:05 - 18:15
+              .scheduleTable_line_time_min
+               | 10min
+            .scheduleTable_line_session-all.break
+              | クロージング
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | -
+            .scheduleTable_line_session-all.break
+              | ※ Day2 は ネットワーキングはありません

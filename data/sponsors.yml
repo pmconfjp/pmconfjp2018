@@ -1,0 +1,113 @@
+platina:
+  - name: 株式会社メルカリ
+    url: https://www.mercari.com/jp/about/corporate/
+    logo_image_url: /assets/images/sponsors/mercari.png
+  - name: 楽天株式会社
+    url: https://corp.rakuten.co.jp/careers/jobs/producer/
+    logo_image_url: /assets/images/sponsors/rakuten.png
+  - name: 株式会社サイバーエージェント アドテクスタジオ
+    url: https://cyberagent-career.jp/recruit/joboffer/81/165320/1244-1805
+    logo_image_url: /assets/images/sponsors/cyberagent.png
+  - name: LINE株式会社
+    url: https://linecorp.com/ja
+    logo_image_url: /assets/images/sponsors/line.png
+
+golds:
+  - name: 株式会社ビズリーチ
+    url: http://www.bizreach.co.jp/corporate_info/profile/
+    logo_image_url: /assets/images/sponsors/bizreach.png
+  - name: 株式会社ディー・エヌ・エー
+    url: http://dena.com/jp/recruit/career/
+    logo_image_url: /assets/images/sponsors/dena.png
+
+booths:
+  - name: 転職ドラフトプロジェクト - 株式会社リブセンス
+    url: https://webexpert-draft.jp/
+    logo_image_url: /assets/images/sponsors/livesense.png
+  - name: freee株式会社
+    url: https://www.freee.co.jp/
+    logo_image_url: /assets/images/sponsors/freee.png
+  - name: 株式会社Speee
+    url: http://www.speee.jp/
+    logo_image_url: /assets/images/sponsors/speee.png
+  - name: アトラシアン株式会社
+    url: http://ja.atlassian.com/local/japan
+    logo_image_url: /assets/images/sponsors/atlassian.png
+  - name: THRUSTER - 株式会社グロースハックスタジオ
+    url: https://thruster.tokyo/
+    logo_image_url: /assets/images/sponsors/thruster.png
+
+goods:
+  - name: 株式会社spice life
+    url: http://spicelife.jp
+    logo_image_url: /assets/images/sponsors/spicelife.png
+
+silvers:
+  - name: GMOペパボ株式会社
+    url: https://pepabo.com/
+    logo_image_url: /assets/images/sponsors/gmopepabo.png
+  - name: 株式会社エウレカ
+    url: https://eure.jp/
+    logo_image_url: /assets/images/sponsors/eureka.png
+  - name: グロースエクスパートナーズ株式会社
+    url: http://www.gxp.co.jp/atlassian/index.html
+    logo_image_url: /assets/images/sponsors/growthxpartners.png
+  - name: 株式会社アイスタイル
+    url: http://recruit.istyle.co.jp/career/
+    logo_image_url: /assets/images/sponsors/istyle.jpg
+
+logos:
+  - name: パーソルキャリア株式会社
+    url: https://www.persol-career.co.jp/
+    logo_image_url: /assets/images/sponsors/persolcareer.png
+  - name: 株式会社オプト
+    url: http://www.opt.ne.jp/
+    logo_image_url: /assets/images/sponsors/opt.gif
+  - name: 株式会社OKPR
+    url: http://www.okpr.co.jp
+    logo_image_url: /assets/images/sponsors/okpr.png
+
+drinks:
+  - name: サイボウズ株式会社
+    url: https://cybozu.co.jp/company/job/recruitment/list/product_manager.html
+    logo_image_url: /assets/images/sponsors/cybozu.png
+  - name: 株式会社サイバーエージェント アドテクスタジオ
+    url: https://cyberagent-career.jp/recruit/joboffer/81/165320/1244-1805
+    logo_image_url: /assets/images/sponsors/cyberagent.png
+  - name: 株式会社ビズリーチ
+    url: http://www.bizreach.co.jp/corporate_info/profile/
+    logo_image_url: /assets/images/sponsors/bizreach.png
+  - name: 株式会社メルカリ
+    url: https://www.mercari.com/jp/about/corporate/
+    logo_image_url: /assets/images/sponsors/mercari.png
+  - name: LINE株式会社
+    url: https://linecorp.com/ja
+    logo_image_url: /assets/images/sponsors/line.png
+
+medias:
+  - name: CAREER HACK
+    url: http://careerhack.en-japan.com/
+    logo_image_url: /assets/images/sponsors/careerhack.jpg
+  - name: Software Design
+    url: http://gihyo.jp/magazine/SD/
+    logo_image_url: /assets/images/sponsors/softwaredesign.png
+  - name: "@IT"
+    url: http://www.atmarkit.co.jp/
+    logo_image_url: /assets/images/sponsors/atmarkit.png
+  - name: 転職ドラフトプロジェクト - 株式会社リブセンス
+    url: https://webexpert-draft.jp/
+    logo_image_url: /assets/images/sponsors/livesense.png
+
+communities:
+  - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
+    url: http://www.postudy.com/
+    logo_image_url: /assets/images/sponsors/postudy.png
+  - name: Product Managers Japan (PMJP)
+    url: http://productmanagers.jp/
+    logo_image_url: /assets/images/sponsors/pmjp.png
+  - name: pm-roppongi
+    url: https://pm-roppongi.connpass.com/
+    logo_image_url: /assets/images/sponsors/pmroppongi.png
+  - name: UX DAYS TOKYO
+    url: https://uxdaystokyo.com/
+    logo_image_url: /assets/images/sponsors/uxdaystokyo.png
