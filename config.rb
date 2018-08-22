@@ -47,11 +47,11 @@ page 'sitemap.xml', layout: 'xml_layout'
 helpers do
   def page_title
     if current_page.data.title
-      "#{current_page.data.title} | プロダクトマネージャー・カンファレンス 2017"
+      "#{current_page.data.title} | プロダクトマネージャー・カンファレンス 2018"
     elsif yield_content(:title)
-      "#{yield_content(:title)} | プロダクトマネージャー・カンファレンス 2017"
+      "#{yield_content(:title)} | プロダクトマネージャー・カンファレンス 2018"
     else
-      'プロダクトマネージャー・カンファレンス 2017'
+      'プロダクトマネージャー・カンファレンス 2018'
     end
   end
 
@@ -61,12 +61,12 @@ helpers do
     elsif yield_content(:description)
       yield_content(:description)
     else
-      'プロダクトマネージャー・カンファレンス 2017 - 広げる、深める、日本のプロダクトマネジメント'
+      'プロダクトマネージャー・カンファレンス 2018 - 愛されるプロダクトを創ろう'
     end
   end
 
   def page_url
-    "http://pmconfjp.github.io/pmconf2017/#{current_page.url}"
+    "http://pmconfjp.github.io/pmconf2018/#{current_page.url}"
   end
 
   def jobs
@@ -115,7 +115,7 @@ end
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'gh-pages'
-  deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/pmconfjp/pmconfjp2017.git" # rubocop:disable all
+  deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/pmconfjp/pmconfjp2018.git" # rubocop:disable all
   deploy.build_before = true
 end
 
