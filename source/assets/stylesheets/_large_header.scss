@@ -94,7 +94,7 @@
       &:active,
       &:focus {
         color: #fff;
-        background-color: #d02525;
+        background-color: darken($brand-sub-color, 10%);
         text-decoration: none;
       }
     }

@@ -2,6 +2,7 @@
   padding: 20px 0 40px;
   font-size: 1.1em;
   background: url("//2018.pmconf.jp/assets/images/pmconf_bg.jpg") no-repeat left top;
+  background-size: cover;
 
   &_list {
     @include textlink(#fff);
