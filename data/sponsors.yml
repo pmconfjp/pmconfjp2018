@@ -1,8 +1,3 @@
-drinks:
-  - name: サイボウズ株式会社
-    url: https://cybozu.co.jp/company/job/recruitment/list/product_manager.html
-    logo_image_url: /assets/images/sponsors/cybozu.png
-
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: http://www.postudy.com/
