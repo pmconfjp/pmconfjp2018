@@ -114,7 +114,7 @@ end
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deploy.branch   = 'dev'
+  deploy.branch = 'dev'
   deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/pmconfjp/pmconfjp2018.git" # rubocop:disable all
   deploy.build_before = true
 end
