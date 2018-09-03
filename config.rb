@@ -117,6 +117,7 @@ activate :deploy do |deploy|
   deploy.branch = 'master'
   deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/pmconfjp/pmconfjp2018.git" # rubocop:disable all
   deploy.build_before = true
+  deploy.commit_message = '[ci skip]'
 end
 
 activate :external_pipeline,
