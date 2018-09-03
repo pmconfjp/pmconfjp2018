@@ -6,8 +6,6 @@ ruby '2.3.1'
 gem 'jquery-middleman'
 gem 'middleman-blog'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
-    github: 'middleman-contrib/middleman-deploy',
-    ref: '243ab38b08896cd5a37d6845a01a5761b934a898'
 gem 'middleman-livereload'
 gem 'middleman', '~> 4.1'
 gem 'tzinfo-data', platforms: [:mswin, :mingw]
