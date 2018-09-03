@@ -2,8 +2,6 @@ Time.zone = 'Tokyo' # rubocop:disable all
 
 activate :directory_indexes
 
-set :build_dir, 'docs'
-
 activate :blog do |blog|
   blog.name = 'articles'
   blog.prefix = 'articles'
@@ -116,7 +114,7 @@ end
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deploy.path = '/docs'
+  deploy.branch   = 'dev'
   deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/pmconfjp/pmconfjp2018.git" # rubocop:disable all
   deploy.build_before = true
 end
