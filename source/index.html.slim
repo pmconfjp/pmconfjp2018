@@ -106,17 +106,17 @@ section.section
 /           | タイムテーブルを見る
 /
 /
-/ section.section
-/   .container
-/     h2.section_title SPEAKERS
-/     .speakers
-/       .speakers_list
-/         - data.speakers.normals.each do |normals|
-/           .speakers_list_item
-/             = image_tag normals.profile_image_url, class: 'speakers_list_image'
-/             .speakers_list_name = normals.name
-/             .speakers_list_organization = normals.organization
-/             .speakers_list_title = normals.title
+section.section
+  .container
+    h2.section_title SPEAKERS
+    .speakers
+      .speakers_list
+        - data.speakers.normals.each do |normals|
+          .speakers_list_item
+            = image_tag normals.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = normals.name
+            .speakers_list_organization = normals.organization
+            .speakers_list_title = normals.title
 
 /       .speakers_schedulelink
 /         = link_to '/documents', class: 'btn' do
