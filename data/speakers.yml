@@ -27,22 +27,23 @@ normals:
   - name: 泉 雄介
     organization: ラクスル株式会社
     title: 取締役CTO
-    profile_image_url: /assets/images/blank_user.png
+    profile_image_url: /assets/images/speakers/raksul_izumi.jpg
     profile: "長野県生まれ。10歳で渡米。ニューヨークで育つ。米音楽大学を卒業後、メディア制作会社に作曲家として入社。作曲→映像→Flash Movie→ウェブアニメーション制作→動的コンテンツ生成を経て突如システム開発に目覚める。ホリエモンに影響を受けて起業する。その後外資系金融にて、約７年間、主に債券の取引システムの開発。2012年よりDeNAに入社し、ゲームプラットフォーム事業や遺伝子検査サービスの立ち上げをする。2015年10月よりラクスル株式会社に入社。現在CTO、特に組織づくりや、マネジメント、物流サービスのハコベルの新規サービスの開発に携わっています。最近の技術的なチャレンジ：react-native / redux / immutable.js"
   - name: Jasper WU
     organization: 株式会社メルカリ
     title: UX consultant
     profile_image_url: /assets/images/blank_user.png
+    profile_image_url: /assets/images/speakers/mercari_wu.jpg
     profile: "https://www.linkedin.com/in/jasper-wu-344a2358/"
   - name: 山下 徹朗
     organization: 楽天株式会社
     title: Vice Senior Manager
-    profile_image_url: /assets/images/blank_user.png
+    profile_image_url: /assets/images/speakers/rakuten_yamashita.jpg
     profile: "2009年楽天入社。楽天スーパーポイントや会員ランク系のプロダクトなど、楽天エコシステムのマーケティング戦略を推進するプロダクトマネージャー。"
   - name: 清水 智雄
     organization: ピクシブ株式会社
     title: 執行役員、pixiv運営本部長・新技術プロジェクトプロデューサー
-    profile_image_url: /assets/images/blank_user.png
+    profile_image_url: /assets/images/speakers/pixiv_shimizu.jpg
     profile: "現在、pixiv運営本部本部長、新技術プロジェクトプロデューサーを兼任。これまでにBOOTH、pixivFACTORY、pixiv Sketch、Pawoo、pixiv Sketch LIVEなどの企画、立ち上げ、プロダクトマネージャーを担当。"
   - name: 荒井 茂太
     organization: 株式会社ノンピ
