@@ -95,3 +95,13 @@ normals:
     title: 代表取締役 CEO
     profile_image_url: /assets/images/speakers/folio_kai.jpg
     profile: "京都大学法学部卒。 2006年、ゴールドマン・サックス証券に入社し金利デリバティブトレーディングに従事する。 2010年、バークレイズ証券に転籍しアルゴリズム・金利オプショントレーディングの責任者を兼任する。 2015年11月に同社を退職し株式会社FOLIOを創業。12月より現職。"
+  - name: 関 満徳
+    organization: プロダクトマネージャー・カンファレンス
+    title: 実行委員長
+    profile_image_url: /assets/images/profile_images/fullvirtue.png
+    profile: ""
+  - name: 丹野 瑞紀
+    organization: プロダクトマネージャー・カンファレンス
+    title: 実行委員
+    profile_image_url: /assets/images/profile_images/mizukitanno.png
+    profile: ""
