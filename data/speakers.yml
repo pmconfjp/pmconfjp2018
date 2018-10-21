@@ -19,7 +19,7 @@ normals:
     title: プロダクトマネージャ
     profile_image_url: /assets/images/speakers/smartnews_miyata.jpg
     profile: "2007年、京都大学法学部卒業。米系戦略コンサルティングファーム2社で経営戦略に従事。その後、大手ITベンチャーにて、アナリスト、プロダクトマネージャーなどを経験し、米国公認会計士を取得。2016年6月にスマートニュース株式会社に入社。プロダクトと経営がクロスする領域のプロダクトマネジメントを担う。"
-  - name: 陈兆伟
+  - name: 陈兆伟 (Chen Zhaowei)
     organization: バイドゥ株式会社
     title: プロダクトマネージャ
     profile_image_url: /assets/images/blank_user.png
@@ -105,3 +105,28 @@ normals:
     title: 実行委員
     profile_image_url: /assets/images/profile_images/mizukitanno.png
     profile: ""
+  - name: 株式会社アイスタイル
+    organization:
+    title:
+    profile_image_url: /assets/images/blank_user.png
+    profile:
+  - name: グロース・アーキテクチャ＆チームス株式会社
+    organization:
+    title:
+    profile_image_url: /assets/images/blank_user.png
+    profile:
+  - name: 金田 悠希
+    organization: 株式会社エウレカ
+    title:
+    profile_image_url: /assets/images/blank_user.png
+    profile:
+  - name: 池田 明啓
+    organization: 株式会社ドワンゴ
+    title: サービス開発本部　副本部長
+    profile_image_url: /assets/images/blank_user.png
+    profile: 公立大学卒業後、電通グループで、広告、製造業のインテグレータ、リードプログラマを担当。その後、カドカワグループ　株式会社ドワンゴで、動画共有サービス関連のプロダクトマネージャを複数担当。現在は同社 MusicTech / MediaTech の事業領域で副本部長、エンジニアリングディレクターを担当する他、スタートアップ系企業でテクニカルアドバイザーを担当。
+  - name: 宮城 良征
+    organization: 株式会社ドワンゴ
+    title: セクションマネージャー
+    profile_image_url: /assets/images/blank_user.png
+    profile:
