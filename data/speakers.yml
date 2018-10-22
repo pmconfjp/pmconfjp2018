@@ -1,97 +1,131 @@
 normals:
-  - name: 馬場 光
-    organization: 株式会社ディー・エヌ・エー
-    title: オートモーティブ事業本部 Anyca事業責任者
-    profile_image_url: /assets/images/speakers/dena_baba.jpg
-    profile: "2012年、DeNAに新卒入社。モバイルゲームの開発運用チームからキャリアをスタートし、ロワイヤル系ゲームのリードエンジニアやプロジェクトマネージャーを経験。3年目からは「Anyca」のシステム責任者として開発/運用を行う。2017年9月よりAnyca事業責任者。"
-  - name: 長瀬 慶重
-    organization: 株式会社サイバーエージェント
-    title: 執行役員
-    profile_image_url: /assets/images/speakers/cyber_nagase.jpg
-    profile: "通信業界での研究開発を経て、2005年、サイバーエージェントに入社。「アメーバブログ」やコミュニティサービス「アメーバピグ」、ソーシャルゲーム、コミュニティサービスなどのサービス開発を担当し、2014年、執行役員に就任。「AbemaTV」をはじめ当社のメディア事業に携わるエンジニアの採用や、技術力をさらに向上するための評価制度などの環境づくりにも注力している。"
-  - name: 馬田 隆明
-    organization: 東京大学
-    title: 本郷テックガレージ ディレクター
-    profile_image_url: /assets/images/speakers/ut_umada.jpg
-    profile: "University of Toronto 卒業後、日本マイクロソフトでの Visual Studio のプロダクトマネージャーを経て、Microsoft Ventures に所属。2016 年 6 月より現職。 スタートアップ向けのスライド、ブログなどの情報提供を行う。著書に『逆説のスタートアップ思考』。"
-  - name: 宮田 善孝
-    organization: スマートニュース株式会社
-    title: プロダクトマネージャ
-    profile_image_url: /assets/images/speakers/smartnews_miyata.jpg
-    profile: "2007年、京都大学法学部卒業。米系戦略コンサルティングファーム2社で経営戦略に従事。その後、大手ITベンチャーにて、アナリスト、プロダクトマネージャーなどを経験し、米国公認会計士を取得。2016年6月にスマートニュース株式会社に入社。プロダクトと経営がクロスする領域のプロダクトマネジメントを担う。"
-  - name: 陈兆伟
-    organization: バイドゥ株式会社
-    title: プロダクトマネージャ
-    profile_image_url: /assets/images/blank_user.png
-    profile: "広東外語外貿大学 日本語学科卒"
-  - name: 泉 雄介
-    organization: ラクスル株式会社
-    title: 取締役CTO
-    profile_image_url: /assets/images/speakers/raksul_izumi.jpg
-    profile: "長野県生まれ。10歳で渡米。ニューヨークで育つ。米音楽大学を卒業後、メディア制作会社に作曲家として入社。作曲→映像→Flash Movie→ウェブアニメーション制作→動的コンテンツ生成を経て突如システム開発に目覚める。ホリエモンに影響を受けて起業する。その後外資系金融にて、約７年間、主に債券の取引システムの開発。2012年よりDeNAに入社し、ゲームプラットフォーム事業や遺伝子検査サービスの立ち上げをする。2015年10月よりラクスル株式会社に入社。現在CTO、特に組織づくりや、マネジメント、物流サービスのハコベルの新規サービスの開発に携わっています。最近の技術的なチャレンジ：react-native / redux / immutable.js"
-  - name: Jasper WU
-    organization: 株式会社メルカリ
-    title: UX consultant
-    profile_image_url: /assets/images/blank_user.png
-    profile_image_url: /assets/images/speakers/mercari_wu.jpg
-    profile: "https://www.linkedin.com/in/jasper-wu-344a2358/"
-  - name: 山下 徹朗
-    organization: 楽天株式会社
-    title: Vice Senior Manager
-    profile_image_url: /assets/images/speakers/rakuten_yamashita.jpg
-    profile: "2009年楽天入社。楽天スーパーポイントや会員ランク系のプロダクトなど、楽天エコシステムのマーケティング戦略を推進するプロダクトマネージャー。"
-  - name: 清水 智雄
-    organization: ピクシブ株式会社
-    title: 執行役員、pixiv運営本部長・新技術プロジェクトプロデューサー
-    profile_image_url: /assets/images/speakers/pixiv_shimizu.jpg
-    profile: "現在、pixiv運営本部本部長、新技術プロジェクトプロデューサーを兼任。これまでにBOOTH、pixivFACTORY、pixiv Sketch、Pawoo、pixiv Sketch LIVEなどの企画、立ち上げ、プロダクトマネージャーを担当。"
-  - name: 荒井 茂太
-    organization: 株式会社ノンピ
-    title: 取締役
-    profile_image_url: /assets/images/speakers/nonpi_arai.jpg
-    profile: "大学卒業後、25歳で大怪我を負い、サッカーを断念。27歳でバリスタという職に出会い、コーヒーにどっぷり浸かる日々を過ごす。2007年10月Google Japanでフードチームを立ち上げするにあたり、フードマネージャーとして参画。2016年10月にGoogleを離れるまで9年間、東京フードチームをリードし、拡張期を物凄いスピードで駆け抜け、密度の濃い日々を過ごす。2016年11月、株式会社ノンピに参画。取締役兼ケータリング事業部長として、”お客さまの想像以上をお届けする”ということを念頭にケータリング、コントラクト、カフェなどの多岐に渡る事業に邁進する毎日。"
-  - name: 宮里 裕樹
-    organization: 株式会社リクルートコミュニケーションズ
-    title: ICTソリューション局 アドバンスドプロダクト開発部 部長
-    profile_image_url: /assets/images/speakers/rc_miyazato.jpg
-    profile: "2015年にリクルートコミュニケーションズ に入社。ITプランナーとして各種WEBマーケティングに関するプロダクトの開発・サービス立ち上げに携わり、現在は部長としてよりよいプロダクト開発を行うための組織づくりを行なっています。"
-  - name: 金山 裕樹
-    organization: 株式会社ZOZOテクノロジーズ
-    title: 代表取締役CINO
-    profile_image_url: /assets/images/speakers/zozo_kanayama.jpg
-    profile: "AppleとGoogle、両社のベストアプリを受賞した唯一のファッションアプリ「IQON」（アイコン）を運営するVASILYを創業後、2017年10月に「ZOZOTOWN」 を運営するZOZO（旧スタートトゥデイ）にM&A。M&A後は同グループの技術開発を担うZOZOテクノロジーズ（旧スタートトゥデイテクノロジーズ）のイノベーション担当代表取締役として、ZOZO研究所の発足などR&Dと新規事業の創造を行なっている。著書に「いちばんやさしいグロースハックの教本」（インプレス）など。"
-  - name: 今井 義人
-    organization: 株式会社マネーフォワード
-    title: MFクラウド経費本部 本部長 プロダクトオーナー
-    profile_image_url: /assets/images/speakers/mf_imai.jpg
-    profile: "大学卒業後、2009年にApple Japanに入社し、チャネル戦略などを担当。12年8月、ミイル株式会社でプロダクトマネージャーとして料理写真共有アプリの開発に携わる。15年12月に株式会社マネーフォワードに参画し、翌年3月にリリースすることになる「MFクラウド経費」の立ち上げメンバーとして加わる。マーケティングやセールスプロセス構築等、サービスの立ち上げ期を支え、MFクラウド経費本部の発足時に本部長に就任。現在に至る。"
-  - name: 入江 和孝
-    organization: LINE株式会社
-    title: LINE企画1室 副室長
-    profile_image_url: /assets/images/speakers/line_irie.jpg
-    profile: "大学卒業後、パナソニックMSE(現：NTTデータMSE)、グリーを経て2014年にLINEへ入社。企画・PM職を中心としたチームのマネジメントに従事しながら、現在はLINEメッセンジャーのPMとしてプロダクト全般の開発進行や意思決定に関わる。"
+  - name: 犬飼 敏貴
+    organization: 株式会社FiNC Technologies
+    title: チーフプロダクトオフィサー
+    profile_image_url: /assets/images/speakers/finc_inukai.jpg
+    profile: "ヤフー株式会社に入社。黎明期のアドネットワーク事業に従事し、2008年にはヤフー株式会社と吉本興業の協業新規事業の立ち上げに参画。当時としては先進的なインタラクティブ性のある生配信動画番組の企画・編成を担当する。2010年にグリー株式会社に入社。入社3ヶ月でマネージャー、半年でシニアマネージャーに就任する。釣りスタ、探検ドリランド、聖戦ケルベロス等数多くの内製ソーシャルゲームを担当し、大手版権ゲームの立ち上げや、スマートフォン向けゲームのプロデューサーを担当する。"
   - name: 熊谷 亘太郎
     organization: 楽天株式会社
     title: トラベルプロダクトマネジメント課 マネージャー
     profile_image_url: /assets/images/speakers/rakuten_kumagai.jpg
     profile: "独立系ソフトウェア会社にて、研究開発、プロダクトマネージャ、事業戦略、営業、プロダクトマーケティングの経験を経て、2012年4月楽天㈱入社。中国開発拠点への出向後、楽天トラベルに配属となり、プロダクトマネージャとして、Partnerおよび社内ユーザ向けのシステムを担当"
-  - name: 金田 將吾
-    organization: 株式会社リクルートコミュニケーションズ
-    title: ICTソリューション局 戦略企画グループ マネジャー／シニアプロデューサー／シニアプロダクトオーナー
-    profile_image_url: /assets/images/speakers/rc_kaneda.jpg
-    profile: "2004年、新卒でリクルートメディアコミュニケーションズ（現リクルートコミュニケーションズ）に入社。営業と制作ディレクター、システム開発エンジニア経験を経て、現在はプロダクトマネージャーとしてデジタルマーケティングの領域で『日本の生産性を高める』をテーマにプロダクト開発の総指揮を執っている。"
-  - name: 塩出 晴海
-    organization: Nature株式会社
-    title: 代表取締役 CEO
-    profile_image_url: /assets/images/speakers/nature_shiode.jpg
-    profile: "2008年にスウェーデン王立工科大学にてComputer Scienceの修士課程を修了、その後3ヶ月間小さなヨットで生活。2008年から2014年迄の6年間、三井物産で米ITベンチャーの投資管理から東南アジアの電力事業開発までを経験。2016年ハーバード大学MBA課程を修了。ハーバード大在学中にNatureを立ち上げる。"
-  - name: 犬飼 敏貴
-    organization: 株式会社FiNC Technologies
-    title: 部長
-    profile_image_url: /assets/images/speakers/finc_inukai.jpg
-    profile: "ヤフー株式会社に入社。黎明期のアドネットワーク事業に従事し、2008年にはヤフー株式会社と吉本興業の協業新規事業の立ち上げに参画。当時としては先進的なインタラクティブ性のある生配信動画番組の企画・編成を担当する。2010年にグリー株式会社に入社。入社3ヶ月でマネージャー、半年でシニアマネージャーに就任する。釣りスタ、探検ドリランド、聖戦ケルベロス等数多くの内製ソーシャルゲームを担当し、大手版権ゲームの立ち上げや、スマートフォン向けゲームのプロデューサーを担当する。"
+  - name: 荒井 茂太
+    organization: 株式会社ノンピ
+    title: 取締役
+    profile_image_url: /assets/images/speakers/nonpi_arai.jpg
+    profile: "大学卒業後、25歳で大怪我を負い、サッカーを断念。27歳でバリスタという職に出会い、コーヒーにどっぷり浸かる日々を過ごす。2007年10月Google Japanでフードチームを立ち上げするにあたり、フードマネージャーとして参画。2016年10月にGoogleを離れるまで9年間、東京フードチームをリードし、拡張期を物凄いスピードで駆け抜け、密度の濃い日々を過ごす。2016年11月、株式会社ノンピに参画。取締役兼ケータリング事業部長として、”お客さまの想像以上をお届けする”ということを念頭にケータリング、コントラクト、カフェなどの多岐に渡る事業に邁進する毎日。"
+  - name: 株式会社アイスタイル
+    organization:
+    title:
+    profile_image_url: /assets/images/blank_user.png
+    profile:
+  - name: グロース・アーキテクチャ＆チームス株式会社
+    organization:
+    title:
+    profile_image_url: /assets/images/blank_user.png
+    profile:
+  - name: 金田 悠希
+    organization: 株式会社エウレカ
+    title:
+    profile_image_url: /assets/images/blank_user.png
+    profile:
+  - name: 長瀬 慶重
+    organization: 株式会社サイバーエージェント
+    title: 執行役員
+    profile_image_url: /assets/images/speakers/cyber_nagase.jpg
+    profile: "通信業界での研究開発を経て、2005年、サイバーエージェントに入社。「アメーバブログ」やコミュニティサービス「アメーバピグ」、ソーシャルゲーム、コミュニティサービスなどのサービス開発を担当し、2014年、執行役員に就任。「AbemaTV」をはじめ当社のメディア事業に携わるエンジニアの採用や、技術力をさらに向上するための評価制度などの環境づくりにも注力している。"
+  - name: 清水 智雄
+    organization: ピクシブ株式会社
+    title: 執行役員、pixiv運営本部長・新技術プロジェクトプロデューサー
+    profile_image_url: /assets/images/speakers/pixiv_shimizu.jpg
+    profile: "現在、pixiv運営本部本部長、新技術プロジェクトプロデューサーを兼任。これまでにBOOTH、pixivFACTORY、pixiv Sketch、Pawoo、pixiv Sketch LIVEなどの企画、立ち上げ、プロダクトマネージャーを担当。"
+  - name: 金山 裕樹
+    organization: 株式会社ZOZOテクノロジーズ
+    title: 代表取締役CINO
+    profile_image_url: /assets/images/speakers/zozo_kanayama.jpg
+    profile: "AppleとGoogle、両社のベストアプリを受賞した唯一のファッションアプリ「IQON」（アイコン）を運営するVASILYを創業後、2017年10月に「ZOZOTOWN」 を運営するZOZO（旧スタートトゥデイ）にM&A。M&A後は同グループの技術開発を担うZOZOテクノロジーズ（旧スタートトゥデイテクノロジーズ）のイノベーション担当代表取締役として、ZOZO研究所の発足などR&Dと新規事業の創造を行なっている。著書に「いちばんやさしいグロースハックの教本」（インプレス）など。"
+  - name: 入江 和孝
+    organization: LINE株式会社
+    title: LINE企画1室 副室長
+    profile_image_url: /assets/images/speakers/line_irie.jpg
+    profile: "大学卒業後、パナソニックMSE(現：NTTデータMSE)、グリーを経て2014年にLINEへ入社。企画・PM職を中心としたチームのマネジメントに従事しながら、現在はLINEメッセンジャーのPMとしてプロダクト全般の開発進行や意思決定に関わる。"
+  - name: 泉 雄介
+    organization: ラクスル株式会社
+    title: 取締役CTO
+    profile_image_url: /assets/images/speakers/raksul_izumi.jpg
+    profile: "長野県生まれ。10歳で渡米。ニューヨークで育つ。米音楽大学を卒業後、メディア制作会社に作曲家として入社。作曲→映像→Flash Movie→ウェブアニメーション制作→動的コンテンツ生成を経て突如システム開発に目覚める。ホリエモンに影響を受けて起業する。その後外資系金融にて、約７年間、主に債券の取引システムの開発。2012年よりDeNAに入社し、ゲームプラットフォーム事業や遺伝子検査サービスの立ち上げをする。2015年10月よりラクスル株式会社に入社。現在CTO、特に組織づくりや、マネジメント、物流サービスのハコベルの新規サービスの開発に携わっています。最近の技術的なチャレンジ：react-native / redux / immutable.js"
   - name: 甲斐 真一郎
     organization: 株式会社FOLIO
     title: 代表取締役 CEO
     profile_image_url: /assets/images/speakers/folio_kai.jpg
     profile: "京都大学法学部卒。 2006年、ゴールドマン・サックス証券に入社し金利デリバティブトレーディングに従事する。 2010年、バークレイズ証券に転籍しアルゴリズム・金利オプショントレーディングの責任者を兼任する。 2015年11月に同社を退職し株式会社FOLIOを創業。12月より現職。"
+  - name: 今井 義人
+    organization: 株式会社マネーフォワード
+    title: MFクラウド経費本部 本部長 プロダクトオーナー
+    profile_image_url: /assets/images/speakers/mf_imai.jpg
+    profile: "大学卒業後、2009年にApple Japanに入社し、チャネル戦略などを担当。12年8月、ミイル株式会社でプロダクトマネージャーとして料理写真共有アプリの開発に携わる。15年12月に株式会社マネーフォワードに参画し、翌年3月にリリースすることになる「MFクラウド経費」の立ち上げメンバーとして加わる。マーケティングやセールスプロセス構築等、サービスの立ち上げ期を支え、MFクラウド経費本部の発足時に本部長に就任。現在に至る。"
+  - name: 塩出 晴海
+    organization: Nature株式会社
+    title: 代表取締役 CEO
+    profile_image_url: /assets/images/speakers/nature_shiode.jpg
+    profile: "2008年にスウェーデン王立工科大学にてComputer Scienceの修士課程を修了、その後3ヶ月間小さなヨットで生活。2008年から2014年迄の6年間、三井物産で米ITベンチャーの投資管理から東南アジアの電力事業開発までを経験。2016年ハーバード大学MBA課程を修了。ハーバード大在学中にNatureを立ち上げる。"
+  - name: 宮里 裕樹
+    organization: 株式会社リクルートコミュニケーションズ
+    title: ICTソリューション局 アドバンスドプロダクト開発部 部長
+    profile_image_url: /assets/images/speakers/rc_miyazato.jpg
+    profile: "2015年にリクルートコミュニケーションズ に入社。ITプランナーとして各種WEBマーケティングに関するプロダクトの開発・サービス立ち上げに携わり、現在は部長としてよりよいプロダクト開発を行うための組織づくりを行なっています。"
+  - name: 金田 將吾
+    organization: 株式会社リクルートコミュニケーションズ
+    title: ICTソリューション局 戦略企画グループ マネジャー／シニアプロデューサー／シニアプロダクトオーナー
+    profile_image_url: /assets/images/speakers/rc_kaneda.jpg
+    profile: "2004年、新卒でリクルートメディアコミュニケーションズ（現リクルートコミュニケーションズ）に入社。営業と制作ディレクター、システム開発エンジニア経験を経て、現在はプロダクトマネージャーとしてデジタルマーケティングの領域で『日本の生産性を高める』をテーマにプロダクト開発の総指揮を執っている。"
+  - name: 山下 徹朗
+    organization: 楽天株式会社
+    title: Vice Senior Manager
+    profile_image_url: /assets/images/speakers/rakuten_yamashita.jpg
+    profile: "2009年楽天入社。楽天スーパーポイントや会員ランク系のプロダクトなど、楽天エコシステムのマーケティング戦略を推進するプロダクトマネージャー。"
+  - name: 池田 明啓
+    organization: 株式会社ドワンゴ
+    title: サービス開発本部　副本部長
+    profile_image_url: /assets/images/speakers/dowango_ikeda.jpg
+    profile: 公立大学卒業後、電通グループで、広告、製造業のインテグレータ、リードプログラマを担当。その後、カドカワグループ　株式会社ドワンゴで、動画共有サービス関連のプロダクトマネージャを複数担当。現在は同社 MusicTech / MediaTech の事業領域で副本部長、エンジニアリングディレクターを担当する他、スタートアップ系企業でテクニカルアドバイザーを担当。
+  - name: 宮城 良征
+    organization: 株式会社ドワンゴ
+    title: セクションマネージャー
+    profile_image_url: /assets/images/speakers/dowango_miyagi.jpg
+    profile:
+  - name: Jasper WU
+    organization: 株式会社メルカリ
+    title: UX consultant
+    profile_image_url: /assets/images/speakers/mercari_wu.jpg
+    profile: "https://www.linkedin.com/in/jasper-wu-344a2358/"
+  - name: 宮田 善孝
+    organization: スマートニュース株式会社
+    title: プロダクトマネージャ
+    profile_image_url: /assets/images/speakers/smartnews_miyata.jpg
+    profile: "2007年、京都大学法学部卒業。米系戦略コンサルティングファーム2社で経営戦略に従事。その後、大手ITベンチャーにて、アナリスト、プロダクトマネージャーなどを経験し、米国公認会計士を取得。2016年6月にスマートニュース株式会社に入社。プロダクトと経営がクロスする領域のプロダクトマネジメントを担う。"
+  - name: 陈兆伟 (Chen Zhaowei)
+    organization: バイドゥ株式会社
+    title: プロダクトマネージャ
+    profile_image_url: /assets/images/blank_user.png
+    profile: "広東外語外貿大学 日本語学科卒"
+  - name: 馬場 光
+    organization: 株式会社ディー・エヌ・エー
+    title: オートモーティブ事業本部 Anyca事業責任者
+    profile_image_url: /assets/images/speakers/dena_baba.jpg
+    profile: "2012年、DeNAに新卒入社。モバイルゲームの開発運用チームからキャリアをスタートし、ロワイヤル系ゲームのリードエンジニアやプロジェクトマネージャーを経験。3年目からは「Anyca」のシステム責任者として開発/運用を行う。2017年9月よりAnyca事業責任者。"
+  - name: 馬田 隆明
+    organization: 東京大学
+    title: 本郷テックガレージ ディレクター
+    profile_image_url: /assets/images/speakers/ut_umada.jpg
+    profile: "University of Toronto 卒業後、日本マイクロソフトでの Visual Studio のプロダクトマネージャーを経て、Microsoft Ventures に所属。2016 年 6 月より現職。 スタートアップ向けのスライド、ブログなどの情報提供を行う。著書に『逆説のスタートアップ思考』。"
+  - name: 関 満徳
+    organization: プロダクトマネージャー・カンファレンス
+    title: 実行委員長
+    profile_image_url: /assets/images/profile_images/fullvirtue.png
+    profile: ""
+  - name: 丹野 瑞紀
+    organization: プロダクトマネージャー・カンファレンス
+    title: 実行委員
+    profile_image_url: /assets/images/profile_images/mizukitanno.png
+    profile: ""
