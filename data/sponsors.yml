@@ -34,6 +34,9 @@ golds:
   - name: 楽天株式会社 楽天トラベル
     url: "https://corp.rakuten.co.jp/careers/jobs/producer/"
     logo_image_url: /assets/images/sponsors/rakuten-travel.png
+  - name: 株式会社ドワンゴ
+    url: "http://dwango.co.jp/"
+    logo_image_url: /assets/images/sponsors/dwango.png
   - name: 株式会社アイスタイル
     url: "http://www.istyle.co.jp/"
     logo_image_url: /assets/images/sponsors/istyle.jpg
