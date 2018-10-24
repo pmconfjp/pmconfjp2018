@@ -141,38 +141,41 @@ section.section
 section.section
   .container
     h2.section_title OUR SPONSORS
-    / h3.sponsors_title PLATINUM SPONSORS
-    / .sponsors_list
-    /   - data.sponsors.platina.each do |platina|
-    /     = link_to image_tag(platina.logo_image_url), platina.url, class: 'sponsors_list_item-platina', target: '_blank', title: platina.name, 'data-toggle' => 'tooltip'
-    / h3.sponsors_title GOLD SPONSORS
-    / .sponsors_list
-    /   - data.sponsors.golds.each do |golds|
-    /     = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
-    / - if data.sponsors.booths.present?
-    /   h3.sponsors_title BOOTH SPONSORS
-    /   .sponsors_list
-    /     - data.sponsors.booths.each do |booths|
-    /       = link_to image_tag(booths.logo_image_url), booths.url, class: 'sponsors_list_item-booths', target: '_blank', title: booths.name, 'data-toggle' => 'tooltip'
-    / - if data.sponsors.silvers.present?
-    /   h3.sponsors_title SILVER SPONSORS
-    /   .sponsors_list
-    /     - data.sponsors.silvers.each do |silvers|
-    /       = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
-    / - if data.sponsors.goods.present?
-    /   h3.sponsors_title 👕 T-SHIRTS SPONSOR
-    /   .sponsors_list
-    /     - data.sponsors.goods.each do |goods|
-    /       = link_to image_tag(goods.logo_image_url), goods.url, class: 'sponsors_list_item-goods', target: '_blank', title: goods.name, 'data-toggle' => 'tooltip'
-    / - if data.sponsors.logos.present?
-    /   h3.sponsors_title LOGO SPONSORS
-    /   .sponsors_list
-    /     - data.sponsors.logos.each do |logos|
-    /       = link_to image_tag(logos.logo_image_url), logos.url, class: 'sponsors_list_item-logos', target: '_blank', title: logos.name, 'data-toggle' => 'tooltip'
-    /h3.sponsors_title DRINK SPONSORS
-    /.sponsors_list
-    /  - data.sponsors.drinks.each do |drinks|
-    /    = link_to image_tag(drinks.logo_image_url), drinks.url, class: 'sponsors_list_item-drinks', target: '_blank', title: drinks.name, 'data-toggle' => 'tooltip'
+    - if data.sponsors.platinas.present?
+      h3.sponsors_title 💎 PLATINUM SPONSORS
+      .sponsors_list
+        - data.sponsors.platinas.each do |platinas|
+          = link_to image_tag(platinas.logo_image_url), platinas.url, class: 'sponsors_list_item-platinas', target: '_blank', title: platinas.name, 'data-toggle' => 'tooltip'
+    - if data.sponsors.golds.present?
+      h3.sponsors_title 🏅 GOLD SPONSORS
+      .sponsors_list
+        - data.sponsors.golds.each do |golds|
+          = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
+    - if data.sponsors.booths.present?
+      h3.sponsors_title BOOTH SPONSORS
+      .sponsors_list
+        - data.sponsors.booths.each do |booths|
+          = link_to image_tag(booths.logo_image_url), booths.url, class: 'sponsors_list_item-booths', target: '_blank', title: booths.name, 'data-toggle' => 'tooltip'
+    - if data.sponsors.silvers.present?
+      h3.sponsors_title 💍 SILVER SPONSORS
+      .sponsors_list
+        - data.sponsors.silvers.each do |silvers|
+          = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
+    - if data.sponsors.goods.present?
+      h3.sponsors_title 👕 T-SHIRTS SPONSOR
+      .sponsors_list
+        - data.sponsors.goods.each do |goods|
+          = link_to image_tag(goods.logo_image_url), goods.url, class: 'sponsors_list_item-goods', target: '_blank', title: goods.name, 'data-toggle' => 'tooltip'
+    - if data.sponsors.logos.present?
+      h3.sponsors_title LOGO SPONSORS
+      .sponsors_list
+        - data.sponsors.logos.each do |logos|
+          = link_to image_tag(logos.logo_image_url), logos.url, class: 'sponsors_list_item-logos', target: '_blank', title: logos.name, 'data-toggle' => 'tooltip'
+    - if data.sponsors.drinks.present?
+      h3.sponsors_title 🥤 DRINK SPONSORS
+      .sponsors_list
+       - data.sponsors.drinks.each do |drinks|
+         = link_to image_tag(drinks.logo_image_url), drinks.url, class: 'sponsors_list_item-drinks', target: '_blank', title: drinks.name, 'data-toggle' => 'tooltip'
     / h3.sponsors_title MEDIA SPONSORS
     / .sponsors_list
     /   - data.sponsors.medias.each do |medias|
@@ -191,26 +194,26 @@ section.section
         | &nbsp;
         | プロダクトマネージャー・カンファレンス 2018 ご協賛のお願い 補助資料
 
-/ section.section
-/   .container
-/     .sponsorJobs
-/       h2.section_title 📣 PRODUCT MANAGER JOBS
-/       p.section_subTitle スポンサー企業のプロダクトマネージャー求人です
-/       .sponsorJobs_table
-/         - data.jobs.each do |jobs|
-/           .sponsorJobs_item
-/             .sponsorJobs_item_organization = jobs.organization
-/             .sponsorJobs_item_title
-/               = link_to jobs.url, class: 'sponsorJobs_item_title_link', target: '_blank' do
-/                 i.fa.fa-fw.fa-external-link
-/                 =< jobs.title
+section.section
+  .container
+    .sponsorJobs
+      h2.section_title 📣 PRODUCT MANAGER JOBS
+      p.section_subTitle スポンサー企業のプロダクトマネージャー求人です
+      .sponsorJobs_table
+        - data.jobs.each do |jobs|
+          .sponsorJobs_item
+            .sponsorJobs_item_organization = jobs.organization
+            .sponsorJobs_item_title
+              = link_to jobs.url, class: 'sponsorJobs_item_title_link', target: '_blank' do
+                i.fa.fa-fw.fa-external-link
+                =< jobs.title
 
 section.section
   .container
     h2.section_title OFFICIAL COMMUNITIES
-    /.sponsors_list
-    /  - data.sponsors.communities.each do |communities|
-    /    = link_to image_tag(communities.logo_image_url), communities.url, class: 'sponsors_list_item-drinks', target: '_blank', title: communities.name, 'data-toggle' => 'tooltip'
+    .sponsors_list
+     - data.sponsors.communities.each do |communities|
+       = link_to image_tag(communities.logo_image_url), communities.url, class: 'sponsors_list_item-drinks', target: '_blank', title: communities.name, 'data-toggle' => 'tooltip'
 
 section.section.hidden-xs
   .container

@@ -1,13 +1,72 @@
+platinas:
+  - name: LINE株式会社
+    url: "https://linecorp.com"
+    logo_image_url: /assets/images/sponsors/line.png
+  - name: ピクシブ株式会社
+    url: "https://www.pixiv.net/"
+    logo_image_url: /assets/images/sponsors/pixiv.png
+  - name: スマートニュース株式会社
+    url: "https://www.smartnews.com/"
+    logo_image_url: /assets/images/sponsors/smartnews.png
+  - name: 株式会社メルカリ
+    url: "https://about.mercari.com/"
+    logo_image_url: /assets/images/sponsors/mercari.png
+  - name: 株式会社FiNC
+    url: "https://company.finc.com/"
+    logo_image_url: /assets/images/sponsors/FiNC.jpg
+  - name: 株式会社DeNA
+    url: "https://dena.com/"
+    logo_image_url: /assets/images/sponsors/dena.png
+  - name: 楽天株式会社
+    url: "https://corp.rakuten.co.jp/careers/jobs/producer/"
+    logo_image_url: /assets/images/sponsors/rakuten.png
+  - name: 株式会社マネーフォワード
+    url: "https://corp.moneyforward.com/"
+    logo_image_url: /assets/images/sponsors/mf.png
+  - name: 株式会社サイバーエージェント
+    url: "https://www.cyberagent.co.jp/"
+    logo_image_url: /assets/images/sponsors/cyberagent.png
+
+golds:
+  - name: 株式会社リクルートコミュニケーションズ
+    url: "https://www.rco.recruit.co.jp/career/engineer/"
+    logo_image_url: /assets/images/sponsors/recruit.jpg
+  - name: 楽天株式会社 楽天トラベル
+    url: "https://corp.rakuten.co.jp/careers/jobs/producer/"
+    logo_image_url: /assets/images/sponsors/rakuten-travel.png
+  - name: 株式会社ドワンゴ
+    url: "http://dwango.co.jp/"
+    logo_image_url: /assets/images/sponsors/dwango.png
+  - name: 株式会社アイスタイル
+    url: "http://www.istyle.co.jp/"
+    logo_image_url: /assets/images/sponsors/istyle.jpg
+
+silvers:
+  - name: 株式会社FOLIO
+    url: "https://corp.folio-sec.com/"
+    logo_image_url: /assets/images/sponsors/folio.png
+  - name: ギットハブ・ジャパン合同会社
+    url: "https://github.co.jp/"
+    logo_image_url: /assets/images/sponsors/github.png
+
+drinks:
+  - name: サイボウズ株式会社
+    url: "https://cybozu.co.jp/company/job/recruitment/list/product_manager.html"
+    logo_image_url: /assets/images/sponsors/cybozu.png
+  - name: freee株式会社
+    url: "https://www.freee.co.jp/"
+    logo_image_url: /assets/images/sponsors/freee.png
+
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
-    url: http://www.postudy.com/
+    url: "http://www.postudy.com/"
     logo_image_url: /assets/images/sponsors/postudy.png
   - name: Product Managers Japan (PMJP)
-    url: http://productmanagers.jp/
+    url: "http://productmanagers.jp/"
     logo_image_url: /assets/images/sponsors/pmjp.png
   - name: pm-roppongi
-    url: https://pm-roppongi.connpass.com/
+    url: "https://pm-roppongi.connpass.com/"
     logo_image_url: /assets/images/sponsors/pmroppongi.png
   - name: UX DAYS TOKYO
-    url: https://uxdaystokyo.com/
+    url: "https://uxdaystokyo.com/"
     logo_image_url: /assets/images/sponsors/uxdaystokyo.png

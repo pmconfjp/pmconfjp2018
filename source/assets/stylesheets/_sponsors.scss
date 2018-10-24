@@ -26,10 +26,11 @@
         width: 100%;
       }
 
-      &-platina {
+      &-platinas {
         @extend .sponsors_list_item;
         width: 260px;
         height: 260px;
+        padding: 20px
       }
 
       &-golds {
@@ -68,6 +69,7 @@
         @extend .sponsors_list_item;
         width: 120px;
         height: 120px;
+        padding: 15px;
       }
 
       &-medias {
