@@ -119,13 +119,27 @@ normals:
     title: 本郷テックガレージ ディレクター
     profile_image_url: /assets/images/speakers/ut_umada.jpg
     profile: "University of Toronto 卒業後、日本マイクロソフトでの Visual Studio のプロダクトマネージャーを経て、Microsoft Ventures に所属。2016 年 6 月より現職。 スタートアップ向けのスライド、ブログなどの情報提供を行う。著書に『逆説のスタートアップ思考』。"
-  - name: 関 満徳
-    organization: プロダクトマネージャー・カンファレンス
-    title: 実行委員長
-    profile_image_url: /assets/images/profile_images/fullvirtue.png
-    profile: ""
   - name: 丹野 瑞紀
     organization: プロダクトマネージャー・カンファレンス
     title: 実行委員
     profile_image_url: /assets/images/profile_images/mizukitanno.png
+    profile: ""
+  - name: 及川 卓也
+    organization: プロダクトマネージャー・カンファレンス
+    title: 実行委員
+    profile_image_url: /assets/images/profile_images/takoratta.jpeg
+  - name: 横道 稔
+    organization: プロダクトマネージャー・カンファレンス
+    title: 実行委員
+    profile_image_url: /assets/images/profile_images/ykmc09.jpeg
+    profile: ""
+  - name: 坂本 登史文
+    organization: プロダクトマネージャー・カンファレンス
+    title: 実行委員
+    profile_image_url: /assets/images/profile_images/aomegane.jpeg
+    profile: ""
+  - name: 関 満徳
+    organization: プロダクトマネージャー・カンファレンス
+    title: 実行委員長
+    profile_image_url: /assets/images/profile_images/fullvirtue.png
     profile: ""
