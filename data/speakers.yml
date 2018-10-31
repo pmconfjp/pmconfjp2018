@@ -21,7 +21,7 @@ normals:
     profile: "東京理科大学基礎工学部卒業。アンダーセンコンサルティング (現:アクセンチュア)を経て、1999年7月にアイスタイルを設立。代表取締役社長就任。同12月、コスメ・美容の総合サイト「＠cosme」オープン。2012年、東証一部上場。現在は、アイスタイル芸術スポーツ振興財団を通じ、芸術・スポーツ分野への助成支援なども行う他、経済同友会東京オリンピック・パラリンピック 2020 委員会副委員長も務める。"
   - name: 鈴木 雄介
     organization: グロース・アーキテクチャ＆チームス株式会社
-    title: 代表取締役社長
+    title: 代表取締役
     profile_image_url: /assets/images/speakers/graat_suzuki.jpg
     profile: ""
   - name: 金田 悠希
@@ -36,7 +36,7 @@ normals:
     profile: "通信業界での研究開発を経て、2005年、サイバーエージェントに入社。「アメーバブログ」やコミュニティサービス「アメーバピグ」、ソーシャルゲーム、コミュニティサービスなどのサービス開発を担当し、2014年、執行役員に就任。「AbemaTV」をはじめ当社のメディア事業に携わるエンジニアの採用や、技術力をさらに向上するための評価制度などの環境づくりにも注力している。"
   - name: 清水 智雄
     organization: ピクシブ株式会社
-    title: 執行役員、pixiv運営本部長・新技術プロジェクトプロデューサー
+    title: 執行役員 pixiv運営本部長・新技術プロジェクトプロデューサー
     profile_image_url: /assets/images/speakers/pixiv_shimizu.jpg
     profile: "現在、pixiv運営本部本部長、新技術プロジェクトプロデューサーを兼任。これまでにBOOTH、pixivFACTORY、pixiv Sketch、Pawoo、pixiv Sketch LIVEなどの企画、立ち上げ、プロダクトマネージャーを担当。"
   - name: 金山 裕樹
@@ -101,12 +101,12 @@ normals:
     profile: "https://www.linkedin.com/in/jasper-wu-344a2358/"
   - name: 宮田 善孝
     organization: スマートニュース株式会社
-    title: プロダクトマネージャ
+    title: プロダクトマネージャー
     profile_image_url: /assets/images/speakers/smartnews_miyata.jpg
     profile: "2007年、京都大学法学部卒業。米系戦略コンサルティングファーム2社で経営戦略に従事。その後、大手ITベンチャーにて、アナリスト、プロダクトマネージャーなどを経験し、米国公認会計士を取得。2016年6月にスマートニュース株式会社に入社。プロダクトと経営がクロスする領域のプロダクトマネジメントを担う。"
   - name: 陈兆伟 (Chen Zhaowei)
-    organization: バイドゥ株式会社
-    title: プロダクトマネージャ
+    organization: Baidu, Inc.
+    title: Product Manager
     profile_image_url: /assets/images/speakers/baidu_zhaowei.jpg
     profile: "広東外語外貿大学 日本語学科卒"
   - name: 馬場 光
