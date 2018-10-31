@@ -11,7 +11,7 @@ platinas:
   - name: 株式会社メルカリ
     url: "https://about.mercari.com/"
     logo_image_url: /assets/images/sponsors/mercari.png
-  - name: 株式会社FiNC
+  - name: 株式会社FiNC Technologies
     url: "https://company.finc.com/"
     logo_image_url: /assets/images/sponsors/FiNC.jpg
   - name: 株式会社DeNA
@@ -40,6 +40,9 @@ golds:
   - name: 株式会社アイスタイル
     url: "http://www.istyle.co.jp/"
     logo_image_url: /assets/images/sponsors/istyle.jpg
+  - name: グロース・アーキテクチャ＆チームス株式会社
+    url: ""
+    logo_image_url: /assets/images/sponsors/graat.png
 
 silvers:
   - name: 株式会社FOLIO
@@ -56,6 +59,12 @@ drinks:
   - name: freee株式会社
     url: "https://www.freee.co.jp/"
     logo_image_url: /assets/images/sponsors/freee.png
+  - name: 株式会社サイバーエージェント
+    url: "https://www.cyberagent.co.jp/"
+    logo_image_url: /assets/images/sponsors/cyberagent.png
+  - name: 株式会社ビズリーチ
+    url: "https://www.bizreach.co.jp/"
+    logo_image_url: /assets/images/sponsors/bizreach.png
 
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
