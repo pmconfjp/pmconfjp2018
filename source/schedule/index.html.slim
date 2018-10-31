@@ -147,12 +147,16 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
                       br
                       = speaker.organization
                       =< speaker.title
+          .scheduleTable_line
+            .scheduleTable_line_time
+              .scheduleTable_line_time_min
             .scheduleTable_line_session
               - speakers.each do |speaker|
                 - if speaker.name == "及川 卓也"
                   .scheduleTable_line_speakerIcon
                     = image_tag speaker.profile_image_url, width: '100', height: '100'
                   .scheduleTable_line_descriptions
+                    .scheduleTable_line_title
                     .scheduleTable_line_speaker
                       = speaker.name
                       br
@@ -386,7 +390,9 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_time_min
                | 1.5h
             .scheduleTable_line_session-all.break
-              | ネットワーキング（1Fにて開催になりますので、ご移動お願いいたします）
+              | ネットワーキング
+              br
+              （1Fにて開催になりますので、ご移動お願いいたします）
   .schedule
     h2.schedule_title
       | Day2: 2018/11/07 (水)
@@ -723,34 +729,46 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
                       br
                       = speaker.organization
                       =< speaker.title
+          .scheduleTable_line
+            .scheduleTable_line_time
+              .scheduleTable_line_time_min
             .scheduleTable_line_session
               - speakers.each do |speaker|
                 - if speaker.name == "関 満徳"
                   .scheduleTable_line_speakerIcon
                     = image_tag speaker.profile_image_url, width: '100', height: '100'
                   .scheduleTable_line_descriptions
+                    .scheduleTable_line_title
                     .scheduleTable_line_speaker
                       = speaker.name
                       br
                       = speaker.organization
                       =< speaker.title
+          .scheduleTable_line
+            .scheduleTable_line_time
+              .scheduleTable_line_time_min
             .scheduleTable_line_session
               - speakers.each do |speaker|
                 - if speaker.name == "坂本 登史文"
                   .scheduleTable_line_speakerIcon
                     = image_tag speaker.profile_image_url, width: '100', height: '100'
                   .scheduleTable_line_descriptions
+                    .scheduleTable_line_title
                     .scheduleTable_line_speaker
                       = speaker.name
                       br
                       = speaker.organization
                       =< speaker.title
+          .scheduleTable_line
+            .scheduleTable_line_time
+              .scheduleTable_line_time_min
             .scheduleTable_line_session
               - speakers.each do |speaker|
                 - if speaker.name == "横道 稔"
                   .scheduleTable_line_speakerIcon
                     = image_tag speaker.profile_image_url, width: '100', height: '100'
                   .scheduleTable_line_descriptions
+                    .scheduleTable_line_title
                     .scheduleTable_line_speaker
                       = speaker.name
                       br
