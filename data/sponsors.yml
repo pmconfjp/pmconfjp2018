@@ -82,9 +82,9 @@ medias:
   - name: CodeZine
     url: https://codezine.jp/
     logo_image_url: /assets/images/sponsors/codezine.png
-#  - name: "@IT"
-#    url: http://www.atmarkit.co.jp/
-#    logo_image_url: /assets/images/sponsors/atmarkit.png
+  - name: "@IT"
+    url: http://www.atmarkit.co.jp/
+    logo_image_url: /assets/images/sponsors/atmarkit.png
 
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
