@@ -215,6 +215,13 @@ section.section
      - data.sponsors.communities.each do |communities|
        = link_to image_tag(communities.logo_image_url), communities.url, class: 'sponsors_list_item-drinks', target: '_blank', title: communities.name, 'data-toggle' => 'tooltip'
 
+section.section
+  .container
+    h2.section_title PERSONAL SPONSORS
+    .sponsors_list
+     - data.sponsors.personals.each do |personals|
+       = link_to image_tag(personals.logo_image_url), personals.url, class: 'sponsors_list_item-personals', target: '_blank', title: personals.name, 'data-toggle' => 'tooltip'
+
 section.section.hidden-xs
   .container
     .row

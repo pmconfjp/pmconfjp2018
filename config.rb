@@ -96,6 +96,7 @@ helpers do
     data.sponsors.sivers.each { |ss| arr << ss }
     data.sponsors.drinks.each { |sd| arr << sd }
     data.sponsors.communities.each { |sc| arr << sc }
+    data.sponsors.personals.each { |ps| arr << ps }
     arr
   end
 end
