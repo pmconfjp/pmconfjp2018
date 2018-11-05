@@ -69,6 +69,23 @@ drinks:
     url: "https://goodpatch.com/?lng=ja"
     logo_image_url: /assets/images/sponsors/goodpatch.png
 
+medias:
+  - name: 創業手帳
+    url: https://sogyotecho.jp
+    logo_image_url: /assets/images/sponsors/sogyotecho.png
+  - name: CAREER HACK
+    url: http://careerhack.en-japan.com/
+    logo_image_url: /assets/images/sponsors/careerhack.jpg
+  - name: Software Design
+    url: http://gihyo.jp/magazine/SD/
+    logo_image_url: /assets/images/sponsors/softwaredesign.png
+  - name: CodeZine
+    url: https://codezine.jp/
+    logo_image_url: /assets/images/sponsors/codezine.png
+#  - name: "@IT"
+#    url: http://www.atmarkit.co.jp/
+#    logo_image_url: /assets/images/sponsors/atmarkit.png
+
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: "http://www.postudy.com/"
