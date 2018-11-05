@@ -42,7 +42,7 @@ section.section
             span.date
               | 2018/11/06 (火) - 07 (水)
             span.time
-              | 06 (火) : 10:00 ~ 18:00<br /> 07 (水) : 10:00 ~ 18:00
+              | 06 (火) : 10:00 ~ 20:00<br /> 07 (水) : 10:00 ~ 17:50
           dt
             i.fa.fa-fw.fa-map-marker
             | &nbsp;
@@ -176,10 +176,11 @@ section.section
       .sponsors_list
        - data.sponsors.drinks.each do |drinks|
          = link_to image_tag(drinks.logo_image_url), drinks.url, class: 'sponsors_list_item-drinks', target: '_blank', title: drinks.name, 'data-toggle' => 'tooltip'
-    / h3.sponsors_title MEDIA SPONSORS
-    / .sponsors_list
-    /   - data.sponsors.medias.each do |medias|
-    /     = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
+    - if data.sponsors.medias.present?
+      h3.sponsors_title 📷 MEDIA SPONSORS
+      .sponsors_list
+       - data.sponsors.medias.each do |medias|
+         = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
 
     .sponsors_description
       h4. スポンサーについて
