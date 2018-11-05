@@ -68,6 +68,9 @@ drinks:
   - name: 株式会社グッドパッチ
     url: "https://goodpatch.com/?lng=ja"
     logo_image_url: /assets/images/sponsors/goodpatch.png
+  - name: パーソルキャリア株式会社
+    url: "https://www.persol-career.co.jp/"
+    logo_image_url: /assets/images/sponsors/persolcareer.png
 
 medias:
   - name: 創業手帳
