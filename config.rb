@@ -66,7 +66,7 @@ helpers do
   end
 
   def page_url
-    "http://pmconfjp.github.io/pmconf2018/#{current_page.url}"
+    "https://2018.pmconf.jp#{current_page.url}"
   end
 
   def jobs
